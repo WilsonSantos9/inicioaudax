@@ -109,8 +109,8 @@ export default function Home() {
           <div className="flex flex-col items-center mb-6 sm:mb-8">
             <div className="flex items-center justify-center mb-4 sm:mb-6">
               <Image
-                src="/images/logo.svg"
-                alt="NexBroker Logo"
+                src="/images/LOGOAUDAX.png"
+                alt="AUDAX Logo"
                 width={180}
                 height={40}
                 className="h-8 sm:h-10 w-auto"
