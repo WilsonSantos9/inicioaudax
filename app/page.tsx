@@ -203,13 +203,13 @@ export default function Home() {
                       Abrir Conta Corretora
                       <ExternalLink className="h-4 w-4" />
                     </a>
-                    <Button
+                    <button
                       onClick={() => handleNext('phase-1')}
-                      className="w-full bg-green-600 hover:bg-green-700 text-white text-sm sm:text-base py-2 sm:py-2.5"
+                      className="inline-flex items-center justify-center gap-2 w-full bg-green-600 hover:bg-green-700 text-white text-sm sm:text-base py-2 sm:py-2.5 rounded-md font-medium transition-colors"
                     >
                       Próxima Fase
                       <ArrowRight className="h-4 w-4" />
-                    </Button>
+                    </button>
                   </div>
                 </CardContent>
                 <CardFooter className="flex flex-col xs:flex-row xs:justify-between pt-2 px-4 sm:px-6 pb-4 sm:pb-6 gap-2 xs:gap-0">
