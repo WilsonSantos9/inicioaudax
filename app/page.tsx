@@ -194,16 +194,21 @@ export default function Home() {
                     />
                   </div>
                   <div className="space-y-3 sm:space-y-4">
-                    <Button className="w-full bg-[#082DF7] hover:bg-[#082DF7]/90 text-sm sm:text-base py-2 sm:py-2.5">
-                      Criar Conta Agora
-                      <ExternalLink className="ml-1.5 sm:ml-2 h-3.5 w-3.5 sm:h-4 sm:w-4" />
-                    </Button>
+                    <a
+                      href="https://cadastrodolarbroker.online/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center gap-2 w-full bg-[#082DF7] hover:bg-[#082DF7]/90 text-white text-sm sm:text-base py-2 sm:py-2.5 rounded-md font-medium transition-colors"
+                    >
+                      Abrir Conta Corretora
+                      <ExternalLink className="h-4 w-4" />
+                    </a>
                     <Button
                       onClick={() => handleNext('phase-1')}
                       className="w-full bg-green-600 hover:bg-green-700 text-white text-sm sm:text-base py-2 sm:py-2.5"
                     >
                       Próxima Fase
-                      <ArrowRight className="ml-1.5 sm:ml-2 h-3.5 w-3.5 sm:h-4 sm:w-4" />
+                      <ArrowRight className="h-4 w-4" />
                     </Button>
                   </div>
                 </CardContent>
